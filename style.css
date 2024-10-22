@@ -5,16 +5,20 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  /* background: black; */
-  color: white;
+  
+  
 
 }
 
+
+/* header section styling start---------------------------------- */
 header{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180.00deg, rgb(13, 12, 12),rgba(18, 17, 17, 0.861) 100%);
+  z-index: 1;
+  color: white;
 }
 
-/* navbar section styling */
+/* navbar section styling------------------------------------- */
 nav{
   width: 70%;
   margin: 0 auto;
@@ -56,14 +60,117 @@ nav{
   
 }
 
-/* navbar section styling done */
+/* navbar section styling done ----------------------------------*/
+
+
+/* hero section styling----------------------------------------- */
+
+
+.hero{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 70px;
+}
+
+.hero-text h1{
+  font-size: 78px;
+}
+
+.hero-text p{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-img img{
+  
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.buttons p{
+  color: white;
+  font-size: 18px;
+}
+
+.btn{
+  
+  border: 2px solid white;
+  padding: 15px 50px;
+  font-weight: 600;
+  border-radius: 30px;
+  
+}
+
+.join-btn{
+  background-color: #E6533C;
+  border: none;
+}
+
+.caption{
+  border: 1px solid white;
+  background: rgba(48, 48, 48, 0.852);
+  border-radius: 20px;
+  width: 60%;
+}
+
+.caption h3{
+  font-size: 24px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.caption p{
+  font-size: 16px;
+}
+ .cap1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  bottom: 200px;
+  right: 130px;
+  padding: 20px 25px;
+  
+} 
+
+.cap2{
+   padding: 15px 28px;
+   position: relative;
+   bottom: 550px;
+   left: 250px;
+
+}
+
+.cap2 h3{
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#circle{
+  width: 40px;
+  height: 40px;
+  background: #E6533C;
+  border-radius: 20px;
+ 
+}
 
 
 
 
 
-
-/* small device responsive section */
+/* small device responsive section ------------------------------------*/
 
 
 @media screen and (max-width: 576px) {
