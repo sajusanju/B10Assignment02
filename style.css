@@ -281,6 +281,78 @@ width: 47%;
   
 }
 
+/* run section end------------- */
+
+/* training section start----------------------------- */
+
+.training{
+  width: 75%;
+  margin: 0 auto;
+  color: white;
+  padding-top: 100px;
+  
+}
+
+.training h1{
+  font-size: 55px;
+  padding-bottom: 15px;
+}
+
+.training >p{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 80px;
+}
+
+.img-container{
+  display: grid;
+  grid-template-areas: 
+  "img1 img1 img2 img2 img2 img2 img3 img3 img3"
+  "img4 img4 img4 img4 img5 img5 img6 img6 img6";
+}
+
+.img1{
+  grid-area: img1;
+ 
+}
+
+.img2{
+  grid-area: img2;
+}
+.img3{
+  grid-area: img3;
+}
+
+.img4{
+  grid-area: img4;
+}
+
+.img5{
+  grid-area: img5;
+}
+.img6{
+  grid-area: img6;
+}
+.training img{
+  width: 100%;
+}
+
+.img img{
+  height: 200px;
+}
+
+.img p{
+  position: relative;
+  color: white;
+  bottom: 40px;
+}
+
+/* training section done */
+
+
+
+
+
 
 
 
@@ -384,6 +456,17 @@ width: 47%;
     margin-top: 20px;
   }
 
+  .img-container{
+    grid-template-areas: "img1 img1 img2 img2 img2 "
+    "img3 img3 img3  img4 im4";
+  }
+
+  .img5{
+    display: none;
+  }
+  .img6{
+    display: none;
+  }
   
   
   
