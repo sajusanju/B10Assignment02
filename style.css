@@ -79,9 +79,10 @@ nav{
   flex-direction: column;
   gap: 20px;
   padding-top: 70px;
+  margin-bottom: 10px;
 }
 
-.hero-text h1{
+.hero-text >h1{
   font-size: 3.8rem;
 }
 
@@ -90,6 +91,9 @@ nav{
   color: rgba(255, 255, 255, 0.5);
 }
 
+.hero-img{
+  height: 580px;
+}
 
 
 .buttons{
@@ -166,6 +170,50 @@ nav{
 
 
 
+.change-habits{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.change-habit-txt>h1{
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+
+.change-habit-txt>p{
+  width: 45%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 200;
+}
+.habits{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  gap: 30px;
+}
+.habit img{
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.habit h3{
+  font-size: 16px;
+}
+
+.habit p{
+  font-size: 14px;
+  font-weight: 200;
+  color:  rgba(255, 255, 255, 0.5);
+}
+
+/* change your habit section styling done------------- */
+
+
 
 
 /* small device responsive section ------------------------------------*/
@@ -237,9 +285,21 @@ nav{
   
 
   .cap2{
-    left: 250px;
+    left: 240px;
     bottom: 550px;
     
+  }
+
+  .habits{
+    flex-direction: column;
+  }
+
+  .change-habit-txt>h1{
+    font-size: 45px;
+  }
+
+  .change-habit-txt>p{
+    width: 80%;
   }
 
   
