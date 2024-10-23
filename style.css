@@ -20,7 +20,7 @@ header{
 
 /* navbar section styling------------------------------------- */
 nav{
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -68,7 +68,7 @@ nav{
 
 .hero{
   display: flex;
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   justify-content: space-between;
   
@@ -168,6 +168,11 @@ nav{
  
 }
 
+main{
+  background: black;
+}
+/* change habit section start--------- */
+
 
 
 .change-habits{
@@ -192,7 +197,7 @@ nav{
 }
 .habits{
   display: flex;
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   gap: 30px;
 }
@@ -212,6 +217,69 @@ nav{
 }
 
 /* change your habit section styling done------------- */
+
+/* run section starts-------------- */
+
+.run{
+  width: 75%;
+  margin: 0px auto;
+  border: 2px solid #222222;
+  background: #222222;
+  border-radius: 20px;
+  
+}
+
+.run-container{
+  display: flex;
+  margin: 45px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.run-txt{
+display: flex;
+flex-direction: column;
+gap: 45px;
+width: 47%;
+
+}
+
+.run-txt h1{
+  font-size: 55px;
+  color: white;
+  font-weight: 900;
+}
+
+.run-txt p{
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.run-txt button{
+  width: 50%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #E6533C;
+  border: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.run-img {
+ 
+  
+  
+}
+
+.run-img img{
+  width: 350px;
+  height: 350px;
+  object-fit: none;
+  object-position: 68% 33%;
+  border-radius: 20px;
+  
+}
 
 
 
@@ -300,6 +368,20 @@ nav{
 
   .change-habit-txt>p{
     width: 80%;
+  }
+
+  .run-container{
+    flex-direction: column;
+  }
+
+  .run-txt{
+    width: 100%;
+  }
+
+  .run-img img{
+    height: 210px;
+    object-fit: cover;
+    margin-top: 20px;
   }
 
   
