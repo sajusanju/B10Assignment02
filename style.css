@@ -348,10 +348,131 @@ width: 47%;
 }
 
 /* training section done */
+/* bmi calculation section start-------- */
+.bmi-cal{
+  color: white;
+  text-align: start;
+  padding: 80px 0;
+}
+
+.bmi-cal > h1{
+   width: 50%;
+   margin: 0 auto;
+  
+}
+
+.bmi-cal>p{
+  width: 50%;
+   margin: 0 auto;
+}
+
+.bmi-cal h1{
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+
+.bmi-cal >p{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300;
+}
+
+.calculator{
+  width: 100%;
+  background: #222222;
+  padding: 80px 0;
+  margin: 80px 0;
+ display: flex;
+ 
+ justify-content: space-evenly;
+  
+
+}
+
+table, th, td {
+  border: 1px solid  rgba(255, 255, 255, 0.5);
+  border-collapse: collapse;
+}
+
+table{
+  margin-top: 50px;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+
+}
+th{
+  text-align: start;
+}
+td{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.form{
+  width: 45%;
+}
+
+.bmi-form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bmi-form-txt h2{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  
+
+}
+
+.bmi-form-txt>p{
+  font-size: 16px;
+  padding-right: 30px;
+  margin: 20px 0;
+}
+
+.form1{
+  width: 44%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.form2{
+  width: 89%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.calculate{
+  padding: 15px 70px ;
+  border-radius: 30px;
+  margin-top: 20px;
+  background: #E6533C;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* bmi calculation section end------- */
 
 
-
-
+/* our team section start--------- */
 
 
 
@@ -466,6 +587,42 @@ width: 47%;
   }
   .img6{
     display: none;
+  }
+
+  .bmi-cal >h1{
+    width: 80%;
+  }
+
+  .bmi-cal>p{
+    width: 80%;
+  }
+
+
+  .calculator{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+  }
+
+  .bmi-chart{
+    width: 80%;
+  }
+
+  .bmi-chart h2{
+    font-size: 25px;
+  }
+  table{
+    width: 100%;
+  }
+
+  .form{
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .bmi-form-txt h2{
+    font-size: 25px;
   }
   
   
